@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-// half stolen from:https://github.com/cookerlyk/Chip8/blob/master/src/chip8_t.h#L54
+// fully stolen from:https://github.com/cookerlyk/Chip8/blob/master/src/chip8_t.h#L54
 typedef struct Chip8{
 	uint8_t ram[4096];
 	uint16_t stack_ptr; //      <-- stack pointer
